@@ -105,7 +105,7 @@ class Cell:
             print(f"pos {item.pos}             neighbours{item.neighbours}      dead_neighbours{item.dead_neighbours}")
 
 
-for e in range(0, 300):
+for e in range(0, 500):
     Cell([(random.randint(120, 180)), (random.randint(120, 180))])
 Cell.draw()
 
